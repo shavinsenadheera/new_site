@@ -320,14 +320,14 @@
 <script src="{{ asset('assets/js/count-up.min.js') }}"></script>
 <script src="{{ asset('assets/js/wow.min.js') }}"></script>
 <script src="{{ asset('assets/js/main.js') }}"></script>
-
 <!-- Messenger Chat Plugin Code -->
 <div id="fb-root"></div>
-<script type="javascript">
+<script>
+    console.log("dsdsd");
     window.fbAsyncInit = function() {
         FB.init({
-            xfbml            : true,
-            version          : 'v10.0'
+            xfbml   : true,
+            version : 'v10.0',
         });
     };
 
