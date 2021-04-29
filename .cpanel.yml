@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/rabbitdev/public_html/
-    - /bin cp * $DEPLOYPATH
+    - export DEPLOYPATH=/home/rabbitde/public_html/
+    - /bin/cp -R * $DEPLOYPATH
