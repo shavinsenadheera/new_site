@@ -6,7 +6,7 @@
         'about_us'                  =>'About us',
         'contact_us'                =>'Contact us',
         'sec_features_notice_1'     =>'Our Features and Services',
-        'sec_features_notice_2'     =>'We are using the latest technologies and methods to build your software solutions.',
+        'sec_features_notice_2'     =>'We give high-quality features and experienced to your web application.',
         'sec_features_feature_1'    =>'Modern Designs',
         'sec_features_feature_2'    =>'Clean Design',
         'sec_features_feature_3'    =>'More Dynamic',
@@ -17,7 +17,7 @@
         'sec_features_feature_4_dsc'=>'We will give free SEO for your web applications to get the best achievement for your business.',
         'technologies' => [
             'topic'                 => 'Our Brains',
-            'description'           => 'We are using the latest technologies and methods to build your software solutions.',
+            'description'           => 'We are using the latest technologies and methods to develop your software solutions.',
         ],
         'aboutus'  => [
             'topic'                 => 'Learn More About Us',
