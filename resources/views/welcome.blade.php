@@ -1,17 +1,9 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
+<html class="no-js" lang="">
 <head>
+    <meta charset="utf-8" />
     <title>RabbitDevs</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <META NAME="geo.position" CONTENT="6.925587; 81.171471">
-    <META NAME="geo.placename" CONTENT="Ambathenna">
-    <META NAME="geo.region" CONTENT="LK-21">
-    <meta name="description" content="This is a software company that is located at Kandy, Sri Lanka. We are develop, Websites, Software solutions as your requirements.">
-    <meta name="keywords" content="rabbitdevs.com, www.rabbitdevs.com, rabbitdevs, RabbitDevs, Rabbitdevs, Software, Websites, Web Developing, Software Developing, Web Developer, Software Developer, Business Solutions, Any software solutions, Software company in Sri Lanka, Software company in Kandy">
-    <meta name="author" content="U G P Shavindu Senadheera">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/x-icon" href="{{ asset('img/icon.png') }}"/>
     <link rel="stylesheet" href="{{ asset('assets/css/bootstrap-5.0.0-alpha-2.min.css')}}" />
     <link rel="stylesheet" href="{{ asset('assets/css/LineIcons.2.0.css') }}" />
@@ -323,33 +315,9 @@
     <i class="lni lni-chevron-up"></i>
 </a>
 
-
 <script src="{{ asset('assets/js/bootstrap.5.0.0.alpha-2-min.js') }}"></script>
 <script src="{{ asset('assets/js/count-up.min.js') }}"></script>
 <script src="{{ asset('assets/js/wow.min.js') }}"></script>
 <script src="{{ asset('assets/js/main.js') }}"></script>
-<!-- Messenger Chat Plugin Code -->
-<div id="fb-root"></div>
-<script>
-    console.log("dsdsd");
-    window.fbAsyncInit = function() {
-        FB.init({
-            xfbml   : true,
-            version : 'v10.0',
-        });
-    };
-
-    (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-        fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));
-</script>
-
-<!-- Your Chat Plugin code -->
-<div class="fb-customerchat" attribution="page_inbox" page_id="109543617641244"></div>
-
 </body>
 </html>
